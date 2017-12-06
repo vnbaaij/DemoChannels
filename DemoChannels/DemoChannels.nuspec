@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/vnbaaij/DemoCahnnels/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/vnbaaij/DemoChannels</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <summary>Apple Watch and Text TV channels</summary>
+    <releaseNotes>Supports Episerver 11 and higher</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Episerver AppleWatchChannel TextTVChannel</tags>
+  </metadata>
+  <files>
+    <file src="Modules\AppleWatchChannel\ClientResources\AppleWatch\AppleWatch.css" target="content\Modules\AppleWatchChannel\ClientResources\AppleWatch\AppleWatch.css" />
+    <file src="Modules\AppleWatchChannel\ClientResources\AppleWatch\applewatch.png" target="content\Modules\AppleWatchChannel\ClientResources\AppleWatch\applewatch.png" />
+    <file src="Modules\AppleWatchChannel\Views\Pages\AppleWatch.cshtml" target="content\Modules\AppleWatchChannel\Views\Pages\AppleWatch.cshtml" />
+    <file src="Modules\AppleWatchChannel\Views\Pages\AppleWatchPageTemplate.aspx" target="content\Modules\AppleWatchChannel\Views\Pages\AppleWatchPageTemplate.aspx" />
+    <file src="Modules\AppleWatchChannel\Views\web.config" target="content\Modules\AppleWatchChannel\Views\web.config" />
+    <file src="Modules\AppleWatchChannel\module.config" target="content\Modules\AppleWatchChannel\module.config" />
+    <file src="Modules\TextTVChannel\ClientResources\TextTV\texttv-background.png" target="content\Modules\TextTVChannel\ClientResources\TextTV\texttv-background.png" />
+    <file src="Modules\TextTVChannel\ClientResources\TextTV\TextTv.css" target="content\Modules\TextTVChannel\ClientResources\TextTV\TextTv.css" />
+    <file src="Modules\TextTVChannel\ClientResources\TextTV\texttv.png" target="content\Modules\TextTVChannel\ClientResources\TextTV\texttv.png" />
+    <file src="Modules\TextTVChannel\Views\Pages\TextTV.cshtml" target="content\Modules\TextTVChannel\Views\Pages\TextTV.cshtml" />
+    <file src="Modules\TextTVChannel\Views\Pages\TextTVPageTemplate.aspx" target="content\Modules\TextTVChannel\Views\Pages\TextTVPageTemplate.aspx" />
+    <file src="Modules\TextTVChannel\Views\web.config" target="content\Modules\TextTVChannel\Views\web.config" />
+    <file src="Modules\TextTVChannel\module.config" target="content\Modules\TextTVChannel\module.config" />
+  </files>
+</package>
