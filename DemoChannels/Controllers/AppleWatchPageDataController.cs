@@ -3,7 +3,7 @@ using EPiServer.Framework.DataAnnotations;
 using EPiServer.Web.Mvc;
 using System.Web.Mvc;
 
-namespace AppleWatchChannel.Controllers
+namespace DemoChannels.Controllers
 {
   [TemplateDescriptor(AvailableWithoutTag = false, Inherited = true, TagString = "AppleWatch")]
   public class AppleWatchPageDataController : PageController<PageData>
@@ -15,7 +15,7 @@ namespace AppleWatchChannel.Controllers
 
     public ActionResult Index(PageData currentPage)
     {
-      return View("~/modules/AppleWatchChannel/Views/Pages/AppleWatch.cshtml", (object) currentPage);
+      return View("~/modules/AppleWatchChannel/Views/Pages/AppleWatch.cshtml", currentPage);
     }
   }
 }

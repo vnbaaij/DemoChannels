@@ -4,7 +4,7 @@ using EPiServer.Framework.DataAnnotations;
 using System;
 using System.Web.UI.HtmlControls;
 
-namespace AppleWatchChannel.Views.Pages
+namespace DemoChannels.Views.Pages
 {
   [TemplateDescriptor(Inherited = true, Tags = new string[] {"AppleWatch"})]
   public class AppleWatchPageTemplate : TemplatePage<PageData>

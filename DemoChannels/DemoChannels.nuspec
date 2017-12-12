@@ -15,4 +15,12 @@
     <copyright>Copyright 2017</copyright>
     <tags>Episerver AppleWatchChannel TextTVChannel</tags>
   </metadata>
+  <files>
+    <file src="Modules\AppleWatchChannel\Views\Pages\AppleWatch.cshtml" target="content\Modules\AppleWatchChannel\Views\Pages\AppleWatch.cshtml" />
+    <file src="Modules\AppleWatchChannel\Views\web.config" target="content\Modules\AppleWatchChannel\Views\web.config" />
+    <file src="Modules\AppleWatchChannel\module.config" target="content\Modules\AppleWatchChannel\module.config" />
+    <file src="Modules\TextTVChannel\Views\Pages\TextTV.cshtml" target="content\Modules\TextTVChannel\Views\Pages\TextTV.cshtml" />
+    <file src="Modules\TextTVChannel\Views\web.config" target="content\Modules\TextTVChannel\Views\web.config" />
+    <file src="Modules\TextTVChannel\module.config" target="content\Modules\TextTVChannel\module.config" />
+  </files>
 </package>
